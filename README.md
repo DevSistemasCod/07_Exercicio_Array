@@ -26,11 +26,11 @@ Crie uma classe para testar a classe feita.
   A classe Venda também deve conter um método para calcular o valor das parcelas. Este método deve receber como parâmetro o número de parcelas desejado e retornar um array de inteiros com o valor de cada parcela.
 Ao fim crie uma classe para testar a classe feita.
 
-3) Faça um sistema de gerenciamento de estoque de uma loja, crie uma classe chamada Produto que armazene informações sobre os produtos disponíveis na loja. Os atributos são nome, preco, quantidade e codigos ( deve ser um array de inteiros).
-  A classe possui os métodos adicionarProduto e removerProduto, que adicionam e removem unidades do produto da quantidade em estoque. O método verificarCodigo é utilizado para verificar se um código fornecido corresponde ao produto. 
-  O método toString é utilizado para retornar uma representação em forma de String do objeto Produto.
-  Os métodos getNome, setNome, getPreco, setPreco, getQuantidade e setQuantidade são utilizados para acessar e alterar os atributos da classe. O método getCodigos e setCodigos são utilizados para acessar e alterar o atributo codigos.
-Ao fim crie uma classe para testar a classe feita.
+3) Faça um código Java para o gerenciamento de estoque de uma loja para isso crie uma classe chamada Produto que armazene informações sobre os produtos disponíveis na loja.  Os atributos são nome, preco, quantidade( deve ser um array de inteiros). 
+  A classe Produto possui os métodos adicionarProduto e removerProduto, que adicionam e removem unidades do produto em estoque. 
+  O método sePosicaoValida  privado e utilizado de form auxiliar para verificar se uma posição/indice fornecida corresponde ao produto. 
+  O método toString é utilizado para retornar uma representação em forma de String do objeto Produto. 
+  Ao fim crie uma classe para testar a classe feita.
 
 4) Faça uma classe chamada "Venda" que irá representar uma venda de uma banca de Jornal. Essa classe terá como atributos um identificador da venda, uma data da venda, um valor total da venda, e um array de inteiros que irá armazenar a quantidade de cada jornal vendido naquela venda (quantidades).
   Além disso, criaremos uma classe "BancaDeJornal" que irá representar a banca em si. Essa classe terá como atributos um nome da banca (nome), um endereço (endereco) e um array de vendas (vendas) que irá armazenar todas as vendas realizadas na banca. 
