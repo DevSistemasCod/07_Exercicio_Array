@@ -12,3 +12,5 @@
 
 6 -  Faça um código java que ordena um array de 7 posições utilizando uma variável auxiliar (dica estude o método de ordenação bubble sort).
 
+----
+#Exercícios de Array com Orientação a Objetos
