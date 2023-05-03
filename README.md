@@ -32,11 +32,7 @@ Ao fim crie uma classe para testar a classe feita.
   O método toString é utilizado para retornar uma representação em forma de String do objeto Produto. 
   Ao fim crie uma classe para testar a classe feita.
 
-4) Faça uma classe chamada "Venda" que irá representar uma venda de uma banca de Jornal. Essa classe terá como atributos um identificador da venda, uma data da venda, um valor total da venda, e um array de inteiros que irá armazenar a quantidade de cada jornal vendido naquela venda (quantidades).
-  Além disso, criaremos uma classe "BancaDeJornal" que irá representar a banca em si. Essa classe terá como atributos um nome da banca (nome), um endereço (endereco) e um array de vendas (vendas) que irá armazenar todas as vendas realizadas na banca. 
-Ao fim crie uma classe para testar a classe feita.
-
-5) Faça um programa Java para um sistema de controle de pedidos de uma lanchonete, para isso codifique uma classe chamada Pedido que representa um pedido feito na lanchonete. Essa classe deve ter os seguintes atributos: codigo (tipo int), itens (tipo String[]): um array com os itens pedidos; valores (tipo double[]): um array com os valores de cada item.
+4) Faça um programa Java para um sistema de controle de pedidos de uma lanchonete, para isso codifique uma classe chamada Pedido que representa um pedido feito na lanchonete. Essa classe deve ter os seguintes atributos: codigo (tipo int), itens (tipo String[]): um array com os itens pedidos; valores (tipo double[]): um array com os valores de cada item.
 Crie também uma classe chamada Lanchonete que representa a lanchonete. Essa classe deve ter os seguintes atributos: pedidos (tipo Pedido[]): um array com os pedidos feitos na lanchonete.
   A classe Lanchonete deve ter os seguintes métodos:
   fazerPedido: faz um novo pedido na lanchonete, adicionando-o ao array de pedidos;
@@ -44,7 +40,7 @@ Crie também uma classe chamada Lanchonete que representa a lanchonete. Essa cla
   listarPedidos: lista todos os pedidos da lanchonete, mostrando seu código, itens e valores. 
 Teste suas classes por meio de uma classe principal.
 
-6) Faça um programa em java para um sistema de gerenciamento de vendas de uma loja de produtos esportivos. Codifique uma classe chamada Venda que representa uma venda realizada na loja. Essa classe deve ter os seguintes atributos: id (tipo int); data (tipo String); valorTotal (tipo double); e itens (tipo ItemVenda[]): um array com os itens vendidos na venda.
+5) Faça um programa em java para um sistema de gerenciamento de vendas de uma loja de produtos esportivos. Codifique uma classe chamada Venda que representa uma venda realizada na loja. Essa classe deve ter os seguintes atributos: id (tipo int); data (tipo String); valorTotal (tipo double); e itens (tipo ItemVenda[]): um array com os itens vendidos na venda.
 Crie também uma classe chamada ItemVenda que representa um item vendido na loja. Essa classe deve ter os seguintes atributos: produto (tipo String); quantidade (tipo int); e valorUnitario (tipo double);
   Crie uma classe chamada Loja que representa a loja de produtos esportivos. Essa classe deve ter os seguintes atributos: vendas (tipo Venda[]): um array com as vendas realizadas na loja.
   A classe Loja deve ter os seguintes métodos:
