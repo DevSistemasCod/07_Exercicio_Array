@@ -3,20 +3,21 @@ package entidade;
 import java.util.Arrays;
 
 public class Produto {
-    private String nome;
+   private String nome;
     private double preco;
-    private int[] quantidadeProduto;
+    private int quantidade;
+    private int[] vetorcDeCodigo;
 
-    public Produto(String nome, double preco, int[] quantidade) {
+    public Produto(String nome, double preco, int[] vetorcDeCodigo, int quantidade) {
         this.nome = nome;
         this.preco = preco;
-        this.quantidadeProduto = quantidade;
+        this.vetorcDeCodigo = vetorcDeCodigo;
     }
 
     public void adicionarProduto(int codigo) {
-        for (int i = 0; i < quantidadeProduto.length; i++) {
-            if (quantidadeProduto[i] == 0) {
-                quantidadeProduto[i] = codigo;
+        for (int i = 0; i < vetorcDeCodigo.length; i++) {
+            if (vetorcDeCodigo[i] == 0) {
+            	vetorcDeCodigo[i] = codigo;
                 break;
             }
         }
@@ -24,12 +25,12 @@ public class Produto {
 
     public void removerProduto(int posicao) {
         if (sePosicaoValida(posicao)) {
-            quantidadeProduto[posicao] = 0;
+        	vetorcDeCodigo[posicao] = 0;
         }
     }
 
     private boolean sePosicaoValida(int posicao) {
-        if (posicao < 0 || posicao >= quantidadeProduto.length) {
+        if (posicao < 0 || posicao >= vetorcDeCodigo.length) {
             System.out.println("Posicao inválido.");
             return false;
         } else {
@@ -42,7 +43,7 @@ public class Produto {
         return "Produto: " +
                 "\nNome: '" + nome + '\'' +
                 ", \nPreco: " + preco +
-                ", \nQuantidade de Produto: " + quantidadeProduto.length + 
-                " \nCodigos: "+ Arrays.toString(quantidadeProduto) + "";
+                ", \nQuantidade de Produto: " + quantidade + 
+                " \nCodigos: "+ Arrays.toString(vetorcDeCodigo) + "";
     }
 }
