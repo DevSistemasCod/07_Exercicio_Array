@@ -26,7 +26,7 @@ Crie uma classe para testar a classe feita.
   A classe Venda também deve conter um método para calcular o valor das parcelas. Este método deve receber como parâmetro o número de parcelas desejado e retornar um array de inteiros com o valor de cada parcela.
 Ao fim crie uma classe para testar a classe feita.
 
-3) Faça um código Java para o gerenciamento de estoque de uma loja para isso crie uma classe chamada Produto que armazene informações sobre os produtos disponíveis na loja.  Os atributos são nome, preco, quantidade( deve ser um array de inteiros). 
+3) Faça um código Java para o gerenciamento de estoque de uma loja para isso crie uma classe chamada Produto que armazene informações sobre um mesmo produto. Os atributos para este produto são nome, preco, quantidade, e código( deve ser um array de inteiros). 
   A classe Produto possui os métodos adicionarProduto e removerProduto, que adicionam e removem unidades do produto em estoque. 
   O método sePosicaoValida  privado e utilizado de form auxiliar para verificar se uma posição/indice fornecida corresponde ao produto. 
   O método toString é utilizado para retornar uma representação em forma de String do objeto Produto. 
